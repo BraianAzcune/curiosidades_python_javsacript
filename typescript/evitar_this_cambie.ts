@@ -9,7 +9,7 @@ class Particule {
   //caso 1
   //funcion que se crea dentro del prototipo de la clase. no duplica codigo.
   //hacer var p = new Particule();, y luego mostrar p. y veras que no esta este metodo dentro de p.
-  getX(){
+  getX():number{
     return this.x;
   }
   //caso 2
