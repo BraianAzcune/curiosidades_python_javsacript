@@ -17,6 +17,7 @@ las reglas pueden estar en el package.json, o en eslintrc.json/js
           "ignoreArrayIndexes": true
         }
       ],
+      "no-shadow": "error",
       "multiline-ternary": ["error", "never"],
       "max-len": ["error", 100],
       "no-var": "warn",
