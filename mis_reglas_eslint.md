@@ -57,7 +57,10 @@ las reglas pueden estar en el package.json, o en eslintrc.json/js
       "no-bitwise": "error",
       "indent": [
         "error",
-        2
+        2,
+        {
+            "SwitchCase": 1
+         }
       ],
       "no-mixed-operators": "error",
       "no-new-object": 1,
