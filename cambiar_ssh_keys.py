@@ -72,4 +72,11 @@ else:
     print("no hay un id_rsa configurado")
 
 
+estaba_en_modo_trabajo = braian_id_rsa_presente and not trabajo_id_rsa_presente
+
+if estaba_en_modo_trabajo:
+    print("configurado modo personal")
+else:
+    print("configurado modo trabajo")
+
 input("presione enter para cerrar")
